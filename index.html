@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess Word</title>
+        <link rel="stylesheet" type="text/css" href="GuessWord.css">
+    </head>
+    <body>
+    <h1>Guessing Words!</h1>
+    <ul id="main_option">
+        <li>Start the game</li>
+        <li>How to play game</li>
+    </ul>
+    <div id="gamepanel">
+        <fieldset>
+            <input class="radiobutton" type="radio" name="genre" value="animal" checked>Animal</input>
+            <input class="radiobutton" type="radio" name="genre" value="country">Country</input>
+            <input class="radiobutton" type="radio" name="genre" value="city">City</input>
+            <button>Start the game!</button>
+            <p></p>
+        </fieldset>
+
+        <input  type="text"></input>
+        <button id="send" disabled>Send</button>
+        <button disabled>Hints</button>
+
+    </div>
+    <div id="helppanel">
+       <p>If you want to play the game, click "Start the game". And then you will see three radio boxes.<br/>
+       Choose one of them and press the "Start the game!" button.<br/>
+       Then, computer will choose random words automatically, and you should guess which word is computer thinking. If you need help, you can have maximum 2 hints.</p>
+   </div>
+   <p id="check"></p>
+   <script src="GuessWord.js"></script>
+   </body>
+</html>

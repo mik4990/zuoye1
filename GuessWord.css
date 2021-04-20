@@ -1,0 +1,50 @@
+body{
+    background-color:yellow;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align:center;
+}
+h1{
+    font-size:30px;
+}
+#main_option{
+     background-color:green;
+     list-style-type:none;
+     width:100%
+     margin-left:0px;
+     padding-top;10px;
+     padding-bottom:10px;
+}
+#main_option li{
+     display:outline;
+     font-size:20px;
+     margin:13%
+     cursor:pointer;
+}
+
+#gamepanel, #helppanel{
+    width: 35%;
+    height: 40%;
+    background-color:lightgrey;
+    margin:auto;
+}
+#helppane{
+    text-align: left;
+}
+fieldset{
+    border-left: 10px;
+    padding:4px;
+}
+fieldset button{
+    margin-left: 10px;
+    padding:4px;
+}
+button+p{
+    margin-top: 0;
+    color: red;
+}
+p+p{
+    margin-top: 0;
+}
+input[type="text"]{
+    width: 65%;
+}
